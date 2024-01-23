@@ -3,14 +3,14 @@ import Logo from '../src/images/logo.svg';
 
 function Menu() {
   return (
-    <div className="menu justify-start items-center flex flex-row space-x-6 ml-32 p-5">
-      <div className="logo justify-center items-center flex flex-row">
-        <img src={Logo} alt="Logo" className='w-5'/>
-        <span className="ml-2 text-indigo-900 font-bold">StartUpLand</span>
-      </div>
-      <div className="list justify-center items-center flex flex-row">
-        <ul className="flex flex-row space-x-4">
-          <li className="flex flex-row items-center text-gray-600 font-normal">Home</li>
+    <div className="menu justify-start items-center flex flex-row space-x-4  p-5 ml-2 mr-2 lg:ml-48 xl:ml-48">
+    <div className="logo justify-center items-center flex flex-row">
+      <img src={Logo} alt="Logo" className='w-5'/>
+      <span className="ml-2 text-indigo-900 font-bold">StartUpLand</span>
+    </div>
+    <div className="list justify-center items-center flex flex-row">
+      <ul className="flex flex-row space-x-4">
+      <li className="flex flex-row items-center text-gray-600 font-normal">Home</li>
           <li className="flex flex-row items-center text-gray-600 font-normal">Advertise
             <span className="ml-1">
               <svg className="h-3 w-3 text-gray-800" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -26,9 +26,9 @@ function Menu() {
             </span>
           </li>
           <li className="flex flex-row items-center text-gray-600 font-normal">About</li>
-        </ul>
-      </div>
+      </ul>
     </div>
+  </div>
   );
 }
 

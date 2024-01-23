@@ -5,7 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-
+fontFamily: {
+  home: 'font-sans',
+  h1 : 'Arvo',
+},
 
     extend: {
       screens: {
