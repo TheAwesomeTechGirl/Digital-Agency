@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import Service from './Service';
+import Group from './Group';
+import Pricing from './Pricing';
 
 
 const App = () => {
@@ -13,6 +15,14 @@ const App = () => {
       </Routes>
       <Routes>
       <Route path="/" element={<Service/>} />
+      </Routes>
+
+      <Routes>
+      <Route path="/" element={<Group/>} />
+      </Routes>
+
+      <Routes>
+      <Route path="/" element={<Pricing/>} />
       </Routes>
     </Router>
   </div>

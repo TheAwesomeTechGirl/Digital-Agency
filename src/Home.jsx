@@ -7,7 +7,7 @@ import Sponsor from './Sponsor';
 
 function Home() {
   return (
-    <div className="homeContainer justify-center items-center sm:bg-cover   md:bg-contain lg:bg-cover xl:bg-contain font-sans" style={{ backgroundImage: `url(${BG})`, backgroundSize: 'cover', height: '100vh', width: '100vw'}}>
+    <div className="homeContainer justify-center items-center  font-sans" style={{ backgroundImage: `url(${BG})`, backgroundSize: 'cover', height: '100vh', width: '100vw'}}>
       <Menu />
       <Hometext/>
       <Homeform/>
