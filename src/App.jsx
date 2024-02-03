@@ -6,7 +6,8 @@ import Service from './Service';
 
 const App = () => {
   return (
-    <Router>
+  <div className='overflow-hidden '>
+      <Router>
       <Routes>
         <Route path="/" element={<Home/>} />
       </Routes>
@@ -14,6 +15,7 @@ const App = () => {
       <Route path="/" element={<Service/>} />
       </Routes>
     </Router>
+  </div>
   );
 };
 

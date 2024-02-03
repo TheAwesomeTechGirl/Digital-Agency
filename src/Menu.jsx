@@ -15,7 +15,7 @@ function Menu() {
         <img src={Logo} alt="Logo" className='w-5'/>
         <span className="ml-2 text-indigo-900 font-bold">StartUpLand</span>
       </div>
-      <div className="menu-icon justify-center items-center flex flex-row  lg:hidden" onClick={handleClick} style={{ marginLeft: '100px' }}> {/* Add margin to push the menu icon away */}
+      <div className="menu-icon justify-center items-center flex flex-row  lg:hidden" onClick={handleClick} style={{ marginLeft: '130px' }}> {/* Add margin to push the menu icon away */}
         <img src={click ? close : dark} alt="hamburger" className="icon"/>
       </div>
       <ul className={`lg:flex space-x-10 lg:flex-row lg:items-center ${click ? "block" : "hidden"} lg:ml-auto `}>
