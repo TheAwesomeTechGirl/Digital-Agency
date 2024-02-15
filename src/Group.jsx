@@ -1,5 +1,5 @@
 import React from 'react';
-import Groupimg from '../src/images/group.svg';
+import Groupimg from '../src/images/Group.svg';
 
 function Group() {
   return (

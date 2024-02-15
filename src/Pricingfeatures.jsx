@@ -1,18 +1,25 @@
 import React from 'react';
+import Pricinglistitems from './Pricinglistitems';
 import Feature1 from './Feature1';
+import Feature2 from './Feature2';
+import Feature3 from './Feature3';
+import Feature4 from './Feature4';
+
+
 
 function Pricingfeatures() {
   return (
-    <div className='flex justify-start items-start mt-24 ml-48'>
-    
-      <ul className='text-gray-800 font-medium text-base'>
-        <li className='mb-4'>Full Access Library</li>
-        <li className='mb-4'>Multiple user</li>
-        <li className='mb-4'>Refund Policy</li>
-        <li className='mb-4'>Google Analytics</li>
-        <li className='mb-4'>24/7 support</li>
-      </ul>
-      <Feature1 className="mr-16" />
+    <div className='justify-start items-start'>
+      <div className='flex flex-col lg:flex-row mt-16 ml-0 space-y-2 lg:space-x-2 '>
+       
+        
+        <Pricinglistitems/>
+          <Feature1 className='w-1/3 mb-4  md:mb-0' />
+          <Feature2 className='w-1/3 mb-4 md:mb-0' /> 
+          <Feature3 className='w-1/3 mb-4  md:mb-0' />
+          <Feature4 className='w-1/3 mb-4  md:mb-0' /> 
+          
+      </div>
     </div>
   );
 }

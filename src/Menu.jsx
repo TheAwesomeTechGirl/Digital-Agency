@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import Logo from '../src/images/logo.svg';
 import dark from '../src/images/dark.svg';
-import close from '../src/images/close.svg';
+import close from '../src/images/Close.svg';
 
 function Menu() {
   const [click, setClick] = useState(false);
