@@ -26,7 +26,7 @@ function SupportText() {
        <div className='space-y-2'>
        <div className="flex flex-row space-y-2">
           <h1 className="font-bold text-lg text-indigo-950">Email client support</h1>
-          <span className="text-gray-300"><FaLongArrowAltRight /></span>
+          <span className="text-gray-300 m-2"><FaLongArrowAltRight /></span>
         </div>
         <p className="font-normal text-base text-blue-950 leading-6">
             Ultimate access to all popular credit exercises
@@ -41,7 +41,7 @@ function SupportText() {
         <div className='space-y-2'>
         <div className="flex flex-row space-y-2">
           <h1 className="font-bold text-lg text-indigo-950">Live ticket support</h1>
-          <span className="text-gray-300"><FaLongArrowAltRight /></span>
+          <span className="text-gray-300 m-2"><FaLongArrowAltRight /></span>
         </div>
         <p className="font-normal text-base text-blue-950 leading-6">
             Total assessment corrections with live support

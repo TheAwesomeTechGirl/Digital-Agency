@@ -5,6 +5,7 @@ import Service from './Service';
 import Group from './Group';
 import Pricing from './Pricing';
 import Support from './Support';
+import Company from './Company';
 
 
 const App = () => {
@@ -28,6 +29,10 @@ const App = () => {
 
       <Routes>
       <Route path="/" element={<Support/>} />
+      </Routes>
+
+      <Routes>
+      <Route path="/" element={<Company/>} />
       </Routes>
 
     </Router>
