@@ -7,7 +7,7 @@ function Feature4() {
    <>
     <div className='border border-gray-300 p-6 flex flex-col items-center '>
   <h3 className='font-sans font-medium text-base text-blue-100 mt-10 mb-2 ml-1'>Ultimate Pack</h3>
-  <h1>$35.99/per mo.</h1>
+  <h1 className='text-blue-950 font-medium text-xl '>$35.99/per mo.</h1>
 
   <ul className='mt-6 ml-6 flex flex-col items-center space-y-2'>
            <li><FaCheckCircle className='text-teal-500 mb-4' /></li>

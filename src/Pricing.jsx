@@ -1,10 +1,10 @@
 import React from 'react'
-import Pricingfeatures from './Pricingfeatures'
+import Pricingfeatures from '../src/Pricingfeatures'
 
 
 function Pricing() {
   return (
-    <div className='justify-center items-center mt-10'>
+    <div className='justify-center items-center mt-32 lg:mt-10'>
       <div >
         <div className='Pricingtitle justify-center items-center flex flex-col'>
 <h3 className='text-teal-500 font-medium text-base font-sans mb-2'>Deal for your business</h3>

@@ -5,7 +5,7 @@ import card3Image from '../src/images/card3.svg';
 import card4Image from '../src/images/card4.svg';
 import card5Image from '../src/images/card5.svg';
 import card6Image from '../src/images/card6.svg';
-
+import Arrowicon from '../src/images/Vector.svg'
 function Servicecards() {
   const [Service, setService] = useState([
     {
@@ -63,7 +63,7 @@ function Servicecards() {
             <a href="#" className=" flex flex-row items-center font-medium text-sm text-blue-500 hover:underline">
               {service.link}
               <span className="ml-1">
-                <img src={('../src/images/Vector.svg').default} alt='Arrow' className="h-2 w-2 mt-1 text-blue-500" />
+                <img src={Arrowicon} alt='Arrow' className="h-2 w-2 mt-1 text-blue-500" />
               </span>
             </a>
           </div>

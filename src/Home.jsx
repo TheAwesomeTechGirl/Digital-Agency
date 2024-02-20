@@ -1,8 +1,8 @@
 import React from 'react';
-import Menu from './Menu';
+import Menu from '../src/Menu';
 import BG from '../src/images/BG.svg';
-import Hometext from './Hometext';
-import Homeform from './Homeform';
+import Hometext from '../src/Hometext';
+import Homeform from '../src/Homeform';
 import Sponsor from './Sponsor';
 
 function Home() {

@@ -1,6 +1,6 @@
 import React from 'react'
-import Servicetitle from './Servicetitle'
-import Servicecards from './Servicecards'
+import Servicetitle from '../src/Servicetitle'
+import Servicecards from '../src/Servicecards'
 
 function Service() {
   return (
