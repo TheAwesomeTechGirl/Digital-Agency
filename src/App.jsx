@@ -6,6 +6,8 @@ import Group from './Group';
 import Pricing from './Pricing';
 import Support from './Support';
 import Company from './Company';
+import Blog from './Blog';
+import Faq from './Faq';
 
 
 const App = () => {
@@ -35,6 +37,13 @@ const App = () => {
       <Route path="/" element={<Company/>} />
       </Routes>
 
+      <Routes>
+      <Route path="/" element={<Blog/>} />
+      </Routes>
+
+      <Routes>
+      <Route path="/" element={<Faq/>} />
+      </Routes>
     </Router>
   </div>
   );

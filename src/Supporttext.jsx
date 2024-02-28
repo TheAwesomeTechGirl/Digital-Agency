@@ -14,11 +14,11 @@ function SupportText() {
         help you
       </h1>
       <p className="font-sans font-normal text-sm  lg:text-base text-indigo-950 leading-7">
-        Get your tests delivered at home, collect samples from the victory of the
+        Get your tests delivered at home, collect samples from the 
         <br/>
-         management that supplies the best design system
+        victory of the management that supplies the best design 
          <br/>
-          guidelines ever.
+         system guidelines ever.
       </p>
 
       <div className="support-card flex flex-row space-x-4  items-center">
