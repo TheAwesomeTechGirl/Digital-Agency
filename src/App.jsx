@@ -8,6 +8,7 @@ import Support from './Support';
 import Company from './Company';
 import Blog from './Blog';
 import Faq from './Faq';
+import Footer from './Footer';
 
 
 const App = () => {
@@ -43,6 +44,10 @@ const App = () => {
 
       <Routes>
       <Route path="/" element={<Faq/>} />
+      </Routes>
+
+      <Routes>
+      <Route path="/" element={<Footer/>} />
       </Routes>
     </Router>
   </div>

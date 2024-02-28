@@ -5,7 +5,7 @@ import Arrowicon from '../src/images/Vector.svg'
 
 function Blogcourse1() {
   return (
-    <div className='space-y-4 m-10 lg:ml-28  lg:mt-48'>
+    <div className='space-y-4  lg:ml-28  lg:mt-48'>
       <img src={course1} alt='course'/>
       <h1 className='text-blue-900  font-bold text-xl '>Introducing our newest team with 
       <br/>

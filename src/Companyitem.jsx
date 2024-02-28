@@ -19,7 +19,7 @@ function Companyitem() {
   </a>
 </div>
 
-        <div className='companyimage mt-10 w-9/12'>
+        <div className='companyimage mt-10 w-screen ml-16'>
         <img src={company} alt={company} />
         </div>
       </div>

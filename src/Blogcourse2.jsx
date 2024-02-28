@@ -5,7 +5,7 @@ import Arrowicon from '../src/images/Vector.svg'
 
 function Blogcourse2() {
   return (
-    <div className='m-10  space-y-4 lg:mt-10 lg:mr-10'>
+    <div className='  space-y-4 lg:mt-10 lg:mr-10'>
       <img src={course2} alt='course'/>
       <h1 className='text-blue-900  font-bold text-xl '>New banking application has  developed and we expecting good feedback</h1>
       <a href="#" className="flex flex-row items-center font-bold text-base text-blue-500 hover:underline">
